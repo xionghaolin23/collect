@@ -7,9 +7,9 @@
         <module>xionghl-stock</module>
     </modules>
     <groupId>com.xionghl</groupId>
-    <artifactId>springcloudalibaba</artifactId>
+    <artifactId>collect</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springcloudalibaba</name>
+    <name>collect</name>
     <description>Demo project for Spring Boot</description>
     <packaging>pom</packaging>
     <properties>
