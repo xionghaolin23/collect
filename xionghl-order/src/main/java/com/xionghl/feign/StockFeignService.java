@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
  * @author xionghaolin
  */
 @FeignClient(name = "stock-service")
-public interface OrderFeignService {
+public interface StockFeignService {
 
     /**
      * 库存扣件
@@ -15,5 +15,6 @@ public interface OrderFeignService {
      */
     @PostMapping(value = "stock/reduct")
     String reduct();
+
 }
 

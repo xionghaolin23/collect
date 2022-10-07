@@ -1,6 +1,6 @@
 package com.xionghl.controller;
 
-import com.xionghl.feign.OrderFeignService;
+import com.xionghl.feign.StockFeignService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,11 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class OrderController {
 
     @Autowired
-    private OrderFeignService orderFeignService;
+    private StockFeignService stockFeignService;
 
     @PostMapping("add")
     public String addOrder(){
-        orderFeignService.reduct();
+        stockFeignService.reduct();
         return "下单成功";
     }
 }
