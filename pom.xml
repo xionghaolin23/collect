@@ -5,6 +5,7 @@
     <modules>
         <module>xionghl-order</module>
         <module>xionghl-stock</module>
+        <module>xionghl-thread-pool</module>
     </modules>
     <groupId>com.xionghl</groupId>
     <artifactId>collect</artifactId>
