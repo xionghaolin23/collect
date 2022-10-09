@@ -16,8 +16,8 @@ Spring Cloud Alibaba   2021.0.4.0*
 Spring Cloud     2021.0.4
 
 
-![img_1.png](img_1.png)
-![img.png](img.png)
+![img_1.png](images/img_1.png)
+![img.png](images/img.png)
 
 
 nacos下载地址（下载版本，目前最新2.1.1)
