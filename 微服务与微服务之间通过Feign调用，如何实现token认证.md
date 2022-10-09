@@ -17,4 +17,6 @@ hystrix隔离策略
 微服务之间相互调用,如果使用Feign调用,如果开启feign熔断, Hystrix的隔离策略默认采用的是线程池，feign调用和请求的线程不属于同一个线程, RequestContextHolder源码中,使用了两个ThreadLocal，无法获取请求的线程数据,会造成空指针异常。
 
 解决方案：hystrix隔离策略更改为SEMAPHORE（信号量）
+在服务发起方的yml文件中配置
+![img.png](images/img_9.png)
 ![img_8.png](images/img_8.png)
