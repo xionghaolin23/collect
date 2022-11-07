@@ -33,6 +33,12 @@
             <artifactId>spring-cloud-loadbalancer</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+        </dependency>
+
     </dependencies>
 
 </project>

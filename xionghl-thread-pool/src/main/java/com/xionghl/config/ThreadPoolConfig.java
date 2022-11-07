@@ -33,6 +33,7 @@ public class ThreadPoolConfig {
     /**
      * 创建线程工厂
      */
+
     static ThreadFactory threadFactory = new ThreadFactory() {
         @Override
         public Thread newThread(Runnable r) {
